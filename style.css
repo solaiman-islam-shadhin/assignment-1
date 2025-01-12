@@ -657,8 +657,9 @@ text-align: left;
 }
 
 .donate input:hover {
-  background-color: rgb(113, 244, 238);
+  background-color: rgb(135, 233, 178);
   box-shadow: 1px 3px 5px rgb(3, 3, 3);
+  color: #0E0E0E;
 }
 
 #donate-now {
@@ -736,8 +737,8 @@ text-align: left;
 }
 
 .newsletter input:hover {
-  background-color: rgb(113, 244, 238);
-
+  background-color: rgb(147, 240, 192);
+  color: rgb(0, 0, 0);
 
 }
 
@@ -792,5 +793,8 @@ footer hr {
 }
 
 .ft-img {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
 }
