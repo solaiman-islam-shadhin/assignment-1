@@ -9,37 +9,41 @@
   font-family: "Fira Sans", serif;
   font-weight: 100;
   font-style: normal;
-
 }
-nav{
+
+/* nav bar */
+
+nav {
   display: flex;
   justify-content: space-between;
   text-align: center;
   margin-bottom: 30px;
 }
-nav h4{
+
+nav h4 {
   color: rgb(14, 14, 14);
-font-family: Fira Sans;
-font-size: 32px;
-font-weight: 700;
-line-height: 38px;
-letter-spacing: 0%;
-text-align: left;
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: left;
 }
 
-nav button{
+nav button {
   box-sizing: border-box;
-border: 1px solid rgb(0, 106, 80);
-border-radius: 8px;
-padding: 15px 30px;
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 8px;
+  padding: 15px 30px;
+  cursor: pointer;
 }
-nav button:hover{
+
+nav button:hover {
   background-color: rgb(238, 105, 34);
   color: aliceblue;
   box-shadow: 1px 2px 3px rgb(3, 3, 3);
 }
 
 /* banner section  */
+
 p {
   color: rgba(14, 14, 14, 0.5);
   font-weight: 500;
@@ -52,7 +56,6 @@ h3 {
   text-align: left;
   font-size: 56px;
   margin-bottom: 40px;
-
 }
 
 .hd {
@@ -80,7 +83,6 @@ h3 {
   border-radius: 8px;
   border: none;
   cursor: pointer;
-
 }
 
 .hdbtn:hover {
@@ -90,20 +92,18 @@ h3 {
 }
 
 body {
-
   background-color: #F5F5F5;
   margin: 80px 100px;
 }
 
 /* Pillars of "Bangladesh 2.0" */
+
 #pl {
   color: rgb(14, 14, 14);
-font-family: Fira Sans;
-font-size: 30px;
-font-weight: 600px;
-line-height: 48px;
-letter-spacing: 0%;
-text-align: left;
+  font-family: Fira Sans;
+  font-size: 30px;
+  font-weight: 600px;
+  text-align: left;
 }
 
 .pillers {
@@ -119,8 +119,6 @@ text-align: left;
   font-family: Fira Sans;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0%;
   text-align: left;
   margin: 10px 0px;
 }
@@ -130,14 +128,11 @@ text-align: left;
   font-family: Fira Sans;
   font-size: 20px;
   font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0%;
   text-align: left;
   margin-top: 10px;
 }
 
 #pl-cont1 {
-
   background-color: rgba(226, 230, 158, 0.767);
   border: none;
   border-radius: 16px;
@@ -145,11 +140,9 @@ text-align: left;
   padding: 32px;
   height: auto;
   width: 400px;
-
 }
 
 #pl-cont2 {
-
   background-color: rgba(245, 172, 157, 0.2);
   border: none;
   border-radius: 16px;
@@ -157,11 +150,9 @@ text-align: left;
   padding: 32px;
   height: auto;
   width: 400px;
-
 }
 
 #pl-cont3 {
-
   background-color: rgba(245, 84, 216, 0.2);
   border: none;
   border-radius: 16px;
@@ -169,11 +160,9 @@ text-align: left;
   padding: 32px;
   height: auto;
   width: 400px;
-
 }
 
 #pl-cont4 {
-
   background-color: rgba(88, 80, 245, 0.2);
   border: none;
   border-radius: 16px;
@@ -181,31 +170,26 @@ text-align: left;
   padding: 32px;
   height: auto;
   width: 400px;
-
 }
 
 #pl-cont1:hover {
   background-color: rgb(139, 221, 232);
   box-shadow: 1px 3px 5px rgb(3, 3, 3);
-
 }
 
 #pl-cont2:hover {
   background-color: rgb(172, 244, 167);
   box-shadow: 1px 3px 5px rgb(3, 3, 3);
-
 }
 
 #pl-cont3:hover {
   background-color: rgb(235, 141, 247);
   box-shadow: 1px 3px 5px rgb(3, 3, 3);
-
 }
 
 #pl-cont4:hover {
   background-color: rgb(241, 154, 168);
   box-shadow: 1px 3px 5px rgb(3, 3, 3);
-
 }
 
 /* The Vision of Future*/
@@ -213,20 +197,15 @@ text-align: left;
 .vision {
   display: flex;
   flex-direction: column;
-  /* margin: auto; */
   color: rgba(14, 14, 14, 0.7);
   margin-bottom: 50px;
-
 }
 
 .vision p {
   font-family: Fira Sans;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0%;
   text-align: left;
-
 }
 
 .vision h3 {
@@ -234,21 +213,15 @@ text-align: left;
   font-family: Fira Sans;
   font-size: 40px;
   font-weight: 700;
-  line-height: 48px;
-  letter-spacing: 0%;
   text-align: left;
-
-
 }
 
 .vision-section {
   display: flex;
-
   justify-content: space-evenly;
   margin: auto;
   margin-bottom: 80px;
   gap: 30px;
-
 }
 
 #vision1 {
@@ -287,19 +260,16 @@ text-align: left;
 #vision3:hover {
   background-color: rgb(241, 104, 131);
   box-shadow: 1px 3px 5px rgb(3, 3, 3);
-
 }
 
 #vision2:hover {
   background-color: rgb(139, 221, 232);
   box-shadow: 1px 3px 5px rgb(3, 3, 3);
-
 }
 
 #vision1:hover {
   background-color: rgb(210, 238, 119);
   box-shadow: 1px 3px 5px rgb(3, 3, 3);
-
 }
 
 .vision-section p {
@@ -307,8 +277,6 @@ text-align: left;
   font-family: Fira Sans;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0%;
   text-align: left;
   margin-bottom: 23px;
 }
@@ -318,14 +286,11 @@ text-align: left;
   font-family: Fira Sans;
   font-size: 20px;
   font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0%;
   text-align: left;
   margin: 20px 0px;
 }
 
 .btnprimary {
-
   padding: 11px 20px;
   border: none;
   border-radius: 8px;
@@ -334,7 +299,6 @@ text-align: left;
   font-weight: 600;
   cursor: pointer;
   transition: 0.3;
-
 }
 
 .btn1 {
@@ -354,7 +318,9 @@ text-align: left;
   color: aliceblue;
   box-shadow: 1px 3px 5px rgb(3, 3, 3);
 }
+
 /* dr.yonus */
+
 .slide-2nd {
   background-color: white;
   border-radius: 16px;
@@ -363,13 +329,13 @@ text-align: left;
   margin-bottom: 60px;
 }
 
-.slide-2nd:hover{
+.slide-2nd:hover {
   box-shadow: 1px 3px 5px rgb(87, 87, 87);
 }
 
 .slide-2nd img {
   position: absolute;
-  top: 35px;
+  top: 28px;
   left: 28px
 }
 
@@ -378,8 +344,6 @@ text-align: left;
   font-family: Fira Sans;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
-  margin-top: 10px;
   text-align: left;
 }
 
@@ -388,8 +352,6 @@ text-align: left;
   font-family: Fira Sans;
   font-size: 20px;
   font-weight: 600;
-  line-height: 24px;
-  letter-spacing: 0%;
   text-align: left;
 }
 
@@ -402,8 +364,6 @@ text-align: left;
   font-weight: 700;
 }
 
-
-
 .opinion h3 {
   font-size: 40px;
   font-weight: bold;
@@ -411,11 +371,10 @@ text-align: left;
 }
 
 .opinion .container {
-  padding: 1.5rem;
+  padding: 20px;
   background-color: white;
   border-radius: 16px;
-  margin: 1.5rem 0;
-
+  margin: 20px 0px;
 }
 
 .opinion .container:hover {
@@ -443,7 +402,7 @@ text-align: left;
   width: 83%;
   height: 90px;
   display: flex;
-  padding-left: 1.5rem;
+  padding-left: 20px;
   align-items: center;
   border: 2px solid #0e0e0e1c;
   border-top: none;
@@ -451,8 +410,6 @@ text-align: left;
   font-family: Fira Sans;
   font-size: 16px;
   font-weight: 600;
-  line-height: 19px;
-  letter-spacing: 0%;
   text-align: left;
 }
 
@@ -465,11 +422,9 @@ text-align: left;
   border: 2px solid #0e0e0e1c;
   border-left: none;
   border-top: none;
-
 }
 
 .agree select:hover {
-
   box-shadow: 1px 3px 5px rgb(3, 3, 3);
 }
 
@@ -478,21 +433,17 @@ text-align: left;
   height: 44px;
   background-color: #C6E4D6;
   border-radius: 4px;
-  padding: 0 1rem;
+  padding: 0 20px;
   font-weight: 600;
-
-
 }
 
-
-
 /* recent news section */
+
 .recent-news {
   display: flex;
   flex-direction: column;
   margin: auto;
   margin-bottom: 50px;
-
 }
 
 .rn-cont {
@@ -511,14 +462,10 @@ text-align: left;
 
 .rn1 {
   border-radius: 24px;
-
-
 }
 
 .rn1:hover {
-
   box-shadow: 1px 3px 5px rgb(54, 53, 53);
-
 }
 
 .recent-news h3 {
@@ -526,8 +473,6 @@ text-align: left;
   font-family: Fira Sans;
   font-size: 40px;
   font-weight: 700;
-  line-height: 48px;
-  letter-spacing: 0%;
   text-align: left;
 }
 
@@ -536,8 +481,6 @@ text-align: left;
   font-family: Fira Sans;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0%;
   text-align: left;
   margin-bottom: 20px;
 }
@@ -547,8 +490,6 @@ text-align: left;
   font-family: Fira Sans;
   font-size: 32px;
   font-weight: 700;
-  line-height: 38px;
-  letter-spacing: 0%;
   text-align: left;
   margin-bottom: 20px;
 }
@@ -558,12 +499,9 @@ text-align: left;
   font-family: Fira Sans;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0%;
   text-align: left;
   margin-bottom: 40px;
 }
-
 
 .rn-cont button {
   padding: 13px 26px;
@@ -574,8 +512,6 @@ text-align: left;
   font-family: Fira Sans;
   font-size: 18px;
   font-weight: 600;
-  line-height: 22px;
-  letter-spacing: 0%;
   text-align: left;
   cursor: pointer;
 }
@@ -584,7 +520,6 @@ text-align: left;
   background-color: rgb(238, 105, 34);
   color: aliceblue;
   box-shadow: 1px 3px 5px rgb(3, 3, 3);
-
 }
 
 /* donate section */
@@ -595,7 +530,6 @@ text-align: left;
   flex-direction: column;
   justify-content: center;
   gap: 30px;
-
 }
 
 .donate h3 {
@@ -606,8 +540,6 @@ text-align: left;
   font-weight: 700;
   line-height: 48px;
   margin: 40px 0px;
-
-
 }
 
 .donate p {
@@ -632,28 +564,24 @@ text-align: left;
   font-family: Fira Sans;
   font-size: 40px;
   font-weight: 700;
-  line-height: 48px;
-  letter-spacing: 0%;
   text-align: left;
   cursor: pointer;
   background-color: rgb(198, 228, 214);
   margin: 20px;
-
 }
 
 .donate input {
   width: 1100px;
   box-sizing: border-box;
-  border: 1px solid rgb(205, 203, 203);
   background-color: rgb(255, 255, 255);
   padding: 20px 40px;
   color: rgba(14, 14, 14, 0.3);
   font-family: Fira Sans;
   font-size: 20px;
   font-weight: 400;
-  line-height: 24px;
   text-align: center;
   border-radius: 5px;
+  border: none;
 }
 
 .donate input:hover {
@@ -668,14 +596,10 @@ text-align: left;
   border-radius: 8px;
   background: rgb(0, 106, 80);
   padding: 17px 34px;
-
-  color: rgb(255, 255, 255);
   font-family: Fira Sans;
   font-size: 18px;
   font-weight: 600;
-  line-height: 22px;
   cursor: pointer;
-
 }
 
 #donate-now:hover {
@@ -691,6 +615,7 @@ text-align: left;
 }
 
 /* newsletter section */
+
 .newsletter {
   margin-top: 80px;
   background-color: #C6E4D6;
@@ -698,7 +623,6 @@ text-align: left;
   border-radius: 24px;
   padding: 80px 100px;
   text-align: center;
-
 }
 
 .newsletter:hover {
@@ -709,19 +633,15 @@ text-align: left;
   font-weight: bold;
   font-size: 40px;
   text-align: center;
-
 }
 
 .newsletter p {
   color: #0e0e0ea5;
-
-
 }
 
 .newsletter .search {
   display: flex;
   justify-content: center;
-
   margin: 30px 0px;
 }
 
@@ -732,8 +652,7 @@ text-align: left;
   padding-left: 2rem;
   color: #0e0e0e18;
   font-weight: 600;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
+  border-radius: 8px 0px 0px 8px;
 }
 
 .newsletter input:hover {
@@ -750,8 +669,8 @@ text-align: left;
   font-size: 18px;
   font-weight: 700;
   border: none;
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
+  border-radius: 0px 8px 8px 0px;
+  cursor: pointer;
 }
 
 .newsletter button:hover {
@@ -763,18 +682,10 @@ text-align: left;
 /* fotter section */
 
 footer {
-
-  margin-top: 5rem;
-  background-color: white;
+  margin: 80px 0px;
   height: 225px;
   text-align: center;
   align-items: center;
-
-
-}
-
-footer:hover {
-  box-shadow: 1px 3px 5px rgb(87, 88, 88);
 }
 
 footer h3 {
@@ -783,13 +694,11 @@ footer h3 {
   color: #0E0E0E;
   font-weight: bold;
   text-align: center;
-
 }
 
 footer hr {
-
   text-align: center;
-  margin: 2rem 0;
+  margin: 30px 150px;
 }
 
 .ft-img {
