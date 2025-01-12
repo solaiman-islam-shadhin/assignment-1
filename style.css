@@ -600,6 +600,7 @@ body {
   font-size: 18px;
   font-weight: 600;
   cursor: pointer;
+  color: #F5F5F5;
 }
 
 #donate-now:hover {
