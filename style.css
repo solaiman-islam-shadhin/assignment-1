@@ -13,7 +13,9 @@
 
 body {
   background-color: #F5F5F5;
-  margin: 80px 150px;
+  margin:4% auto;
+  max-width: 1600px;
+  
 }
 
 /* nav bar */
